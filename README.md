@@ -4,7 +4,7 @@
 
 > A day without sunshine is like, you know, night. -Steve Martin 
 
-## Learning Objectives 
+## Learning Objectives - The student should be able to...
 
 * Explain what a tuple is, how to create it, use it, break down its members.
 * Understand clearly the problem addressed below and how using a tuple solves it.
@@ -13,7 +13,7 @@
 
 ## The Point of Tuples
 
-Consider a relatively simple data structure: A point in 2D space. You probably remember from geometry that such a point consists of two coordinates _(x,y)_ which together tell you where a point lies in a graph. Each individual value—_x_ and _y_—are important, but when you think of a point, you really think of these values together as _one unit_. An _x_ alone alone won't describe the location of a point. Nor will a _y_ value alone. You need both—together—to know where a point lies.
+Consider a relatively simple data structure: A point in 2D space. You probably remember from geometry that such a point consists of two coordinates _(x,y)_ which together tell you where a point lies in a graph. Each individual value—_x_ and _y_—are important, but when you think of a point, you really think of these values together as _one unit_. An _x_ alone won't describe the location of a point. Nor will a _y_ value alone. You need both—together—to know where a point lies.
 
 What data structure would you use?
 
@@ -188,3 +188,5 @@ Tuples are a fairly simple data structure, but you won't see them a whole lot in
 They _are_ often used when iterating over dictionaries. Dictionaries associate a _key_ with a _value_, and when iterating over a dictionary, you get back a tuple describing this key/value pair. You'll learn about dictionaries in a future lesson, and you may find it useful to refer back to this lesson when working with a dictionary's key/value tuples.
 
 <a href='https://learn.co/lessons/Tuples' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-tuplesReading-readme'>Tuples</a> on Learn.co and start learning to code for free.</p>

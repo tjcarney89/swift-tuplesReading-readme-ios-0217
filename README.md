@@ -4,12 +4,16 @@
 
 > A day without sunshine is like, you know, night. -Steve Martin 
 
-## Learning Objectives - The student should be able to...
+## Overview
 
-* Explain what a tuple is, how to create it, use it, break down its members.
-* Understand clearly the problem addressed below and how using a tuple solves it.
-* Create their own tuple in code.
-* Feel comfortable creating a function with the return type being a tuple.
+In this lesson, we'll introduce tuples, a simple data structure that groups multiple values together as one. 
+
+## Learning Objectives
+
+* Describe the purpose and structure of a tuple
+* Create and access elements in a tuple
+* Change values in a tuple
+* Create a function that returns a tuple
 
 ## The Point of Tuples
 
@@ -17,7 +21,7 @@ Consider a relatively simple data structure: A point in 2D space. You probably r
 
 What data structure would you use?
 
-You could use an array like you learned about in a previous unit, but an array doesn't really capture the _spirit_ of a 2D point. An array is more like a _list of things_. A 2D point is something special...it consists of multiple values, but those values are tied inextricably tied together and treated as a single unit.
+You could use an array like you learned about in a previous unit, but an array doesn't really capture the _spirit_ of a 2D point. An array is more like a _list of things_. A 2D point is something special...it consists of multiple values, but those values are inextricably tied together and treated as a single unit.
 
 You could instead use another Swift data structure to represent a 2D point: a _tuple_.
 
@@ -183,10 +187,9 @@ Often times, tuples are constant. They're basically just containers for data, an
 
 ## A Final Note
 
-Tuples are a fairly simple data structure, but you won't see them a whole lot in Swift programming. Usually if you want to group multiple values together, there are better data structures to use (such as classes, which you will learn about soon). They are occasionally used in functions like `downloadImage(atURL:)` to both return a boolean indicating success or failure _and_ another value. Swift's standard library uses them from time to time, but not often. They're important to know about, but you'll soon learn about better ways to handle the problem addressed by tuples.
+Tuples are a fairly simple data structure, but you won't see them a whole lot in Swift programming. Usually if you want to group multiple values together, there are better data structures to use (such as classes). They are occasionally used in functions like `downloadImage(atURL:)` to both return a boolean indicating success or failure _and_ another value. Swift's standard library uses them from time to time, but not often. They're important to know about, but you'll soon learn about better ways to handle the problem addressed by tuples.
 
-They _are_ often used when iterating over dictionaries. Dictionaries associate a _key_ with a _value_, and when iterating over a dictionary, you get back a tuple describing this key/value pair. You'll learn about dictionaries in a future lesson, and you may find it useful to refer back to this lesson when working with a dictionary's key/value tuples.
+They _are_ often used when iterating over dictionaries. Dictionaries are data structures that associate a _key_ with a _value_, and when iterating over a dictionary, you get back a tuple describing this key/value pair. 
 
-<a href='https://learn.co/lessons/Tuples' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-tuplesReading-readme'>Tuples</a> on Learn.co and start learning to code for free.</p>
